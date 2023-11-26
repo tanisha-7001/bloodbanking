@@ -1,0 +1,32 @@
+/* Navigation.css */
+h1{
+    font-size: 50px;
+}
+.navigation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 220px;
+    background-color: rgba(223, 112, 112, 0.546);
+  }
+  
+  .login-link {
+    padding-top: 30px;
+    font-size: 30px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease-in-out;
+    margin: 5px; /* Add margin to create space between links */
+  }
+  
+  .login-link:hover {
+    background-color: #ddd;
+  }
+  

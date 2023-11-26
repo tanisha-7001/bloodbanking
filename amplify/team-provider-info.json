@@ -10,6 +10,11 @@
       "StackName": "amplify-bloodbank-dev-155954",
       "StackId": "arn:aws:cloudformation:ap-south-1:467969006529:stack/amplify-bloodbank-dev-155954/be38b1d0-8c46-11ee-a103-02c749a8d06a",
       "AmplifyAppId": "d1cnrvsd2a848n"
+    },
+    "categories": {
+      "auth": {
+        "bloodbank7d6770cd": {}
+      }
     }
   }
 }

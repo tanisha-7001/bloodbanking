@@ -1,0 +1,23 @@
+type Blood @model {
+  id: ID!
+  bloodType: String!
+  units: Int!
+  # Add other fields related to a blood entry
+}
+
+type DonationRequest @model {
+  id: ID!
+  requesterName: String!
+  bloodType: String!
+  age: Int!
+  weight: Float!
+  # Add other fields related to a donation request
+}
+
+type BloodRequest @model {
+  id: ID!
+  requesterName: String!
+  bloodType: String!
+  # Add other fields related to a blood request
+}
+

@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "bloodbank7d6770cd": {}
+      },
+      "api": {
+        "bloodbankapi": {}
       }
     }
   }

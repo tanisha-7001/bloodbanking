@@ -1,16 +1,14 @@
 import { Amplify } from 'aws-amplify';
-
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
-import config from './amplifyconfiguration.json';
-import UserDashboard from './UserDashboard';
-Amplify.configure(config);
 
-function UserLogin({ signOut, user }) {
+import awsconfig from './aws-exports';
+Amplify.configure(awsconfig);
+
+export function UserLogin({ signOut, user }) {
   return (
     <>
-      <h1>Hello {user.username}</h1>
-      <UserDashboard/>
+      <h1>Hello User</h1>
       <button onClick={signOut}>Sign out</button>
     </>
   );

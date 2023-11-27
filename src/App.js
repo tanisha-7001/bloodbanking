@@ -6,6 +6,7 @@ import AdminLogin from './AdminLogin';
 import UserLogin from './UserLogin';
 import UserDashboard from './UserDashboard';
 
+
 const App = () => {
   return (
     <>
@@ -15,7 +16,6 @@ const App = () => {
         <Route path="/" element={<Navigation />} />
         <Route path="/user-login" element={<UserLogin />} />
         <Route path="/admin-login" element={<AdminLogin />} />
-        <Route path="/user-dashboard" element={<UserDashboard />} />
       </Routes>
     </Router></>
   );

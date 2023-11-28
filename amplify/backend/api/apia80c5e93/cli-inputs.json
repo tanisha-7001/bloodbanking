@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/blood": {
+      "name": "/blood",
+      "lambdaFunction": "bankblood",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/blood/add": {
+      "name": "/blood/add",
+      "lambdaFunction": "bankblood",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/blood/del": {
+      "name": "/blood/del",
+      "lambdaFunction": "bankblood",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

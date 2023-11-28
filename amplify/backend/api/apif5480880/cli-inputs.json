@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/fetch": {
+      "name": "/fetch",
+      "lambdaFunction": "fetch",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "fetch",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/delitems": {
+      "name": "/delitems",
+      "lambdaFunction": "fetch",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

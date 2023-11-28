@@ -1,0 +1,24 @@
+#add
+{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: row;
+  margin-left: 300px;
+  padding: 20px auto;
+  margin-bottom:50px;
+}
+
+body{
+  background-color:rgb(247, 215, 222);
+}
+
+#view
+{
+  font-size: 25px;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 550px;
+}
+  

@@ -1,14 +1,14 @@
-import { Amplify } from 'aws-amplify';
 import { withAuthenticator } from '@aws-amplify/ui-react';
+import AdminDashboard from './AdminDashboard';
+import React from 'react';
 import '@aws-amplify/ui-react/styles.css';
 
-import awsconfig from './aws-exports';
-Amplify.configure(awsconfig);
 
-export function AdminLogin({ signOut, user }) {
+function AdminLogin({ signOut, user }) {
   return (
     <>
-      <h1>Hello Admin</h1>
+      <h1 style={{marginLeft:580,marginBottom:140}}>Hello Admin</h1>
+      <AdminDashboard />
       <button onClick={signOut}>Sign out</button>
     </>
   );

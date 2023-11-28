@@ -1,5 +1,3 @@
-/* eslint-disable */
-// this is an auto generated file. This will be overwritten
 
 export const createBlood = /* GraphQL */ `
   mutation CreateBlood(
@@ -16,6 +14,7 @@ export const createBlood = /* GraphQL */ `
     }
   }
 `;
+
 export const updateBlood = /* GraphQL */ `
   mutation UpdateBlood(
     $input: UpdateBloodInput!

@@ -16,7 +16,15 @@
         "bloodbank7d6770cd": {}
       },
       "api": {
-        "bloodbankapi": {}
+        "bloodbankapi": {},
+        "apia80c5e93": {}
+      },
+      "function": {
+        "bankblood": {
+          "deploymentBucketName": "amplify-bloodbank-dev-155954-deployment",
+          "s3Key": "amplify-builds/bankblood-4b75684e767652416433-build.zip"
+        },
+        "fetch": {}
       }
     }
   }

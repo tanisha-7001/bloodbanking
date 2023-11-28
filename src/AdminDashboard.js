@@ -27,7 +27,7 @@ const AdminDashboard = () => {
       };
 
       await GraphQLAPI.getGraphqlOperationType(createBlood, { input: bloodEntry });
-      setBloodResult('Blood added successfully');
+      setBloodResult('Blood unit added successfully');
       fetchBloodList();
     } catch (error) {
       setBloodResult('Error adding blood entry');
